@@ -228,7 +228,7 @@
     .introduction{
         display: flex;
         min-height: 100vh;
-        margin-top:1rem;
+        margin-top:-1rem;
     }
     .home-left{
         
