@@ -36,7 +36,7 @@ function About() {
         <div className="centre"
         style={{ color: lightMode ? "black" : "white" }}
         >
-          <span><b>T</b>his is it.;)</span>
+          <span><b>T</b>his is it.;) <hr className="line"></hr></span>
             <p>
               {" "}
               Anish Kr. Sinha is an Indian UI/UX Designer & Front End Developer
@@ -64,7 +64,9 @@ function About() {
               girlfriend, watching series, sketching or messing around on
               something inspired by YouTube tutorials.
             </p>
+            <hr className="line2"></hr>
           </div>
+          
         <div className="about-icons">
           <div
             className="icons-about"
@@ -105,6 +107,7 @@ function About() {
         </div>
        
       </div>
+      <div className="email">sinhaanishkumar@outlook.com</div>
     </div>
   );
 }
