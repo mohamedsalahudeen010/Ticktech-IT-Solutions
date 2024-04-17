@@ -126,7 +126,34 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .centre>span{
     font-size: 2rem;
 }
-
+.line{
+    display: inline-block;
+    width: 25%;
+    border-width: 2px ;
+    margin-top: 1rem;
+    margin-left: 5%;
+    position: absolute;
+    top: 15%;
+    background-color: rgb(255, 255, 255);
+}
+.line2{
+    display: inline-block;
+    width: 20%;
+    border-width: 2px ;
+    margin-top: 1rem;
+    margin-left: 15%;
+    position: absolute;
+    top: 70%;
+  
+}
+.email{
+    /* border-style: solid;
+    border-color:black ;
+    border-width:2px 0 0 0 ;
+    background-color: aquamarine;
+    width: fit-content; */
+    background-color: aqua;
+}
 @media only screen and (max-width:1200px){
     .about{
         padding-top: 3rem;
